@@ -11,11 +11,11 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Pacific Rim Mathematical Association'
+    description: ''
+    twitter: 'primamath'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -36,9 +36,9 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: "icon.png"
     button:
-      enable: true
+      enable: false
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
     show_search: true
@@ -47,7 +47,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© 2025 Pacific Institute for the Mathematical Sciences'
 
 # Localization
 locale:

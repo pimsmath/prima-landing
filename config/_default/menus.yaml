@@ -6,15 +6,32 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Members
+    url: /#members
     weight: 20
-  - name: Solutions
-    url: /#solutions
-    weight: 30
-  - name: Resources
-    weight: 40
     hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - name: Congress
+    url: /#congress
+    weight: 30
+    hasChildren: true
+  - name: PRIMA 2022
+    url: /congress/prima2022/
+    parent: Congress
+    weight: 10
+  - name: PRIMA 2017
+    url: /congress/prima2017/
+    parent: Congress
+    weight: 20
+  - name: PRIMA 2013
+    url: /congress/prima2013/
+    parent: Congress
+    weight: 30
+  - name: PRIMA 2009
+    url: /congress/prima2009/
+    parent: Congress
+    weight: 40
+  - name: About
+    weight: 40
+    url: /#about
+  - name: Contact
+    weight: 50
