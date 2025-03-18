@@ -99,11 +99,11 @@ sections:
     design:
       # Section background color (CSS class)
       spacing:
-        padding: [0, 0, 6rem, 0]
+        padding: [-2rem, 0, 6rem, 0]
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: '1'
-      view: showcase
-      flip_alt_rows: false
+      view: card
+      flip_alt_rows: true
   - block: markdown
     id: about
     content:

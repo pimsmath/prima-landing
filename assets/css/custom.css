@@ -16,3 +16,9 @@ div#prima-hero-logo img {
 #section-hero div.home-section-bg {
     box-shadow: 0 0 25px 25px rgba(77,139,78,0.3) inset;
 }
+
+section#congress-instances div.items-center{
+    margin: 2rem;
+    border: 1px solid lightgray;
+    border-radius:2px;
+}
