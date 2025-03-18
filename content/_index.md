@@ -17,9 +17,9 @@ sections:
        around the Pacific Rim.
       primary_action:
         text: Prima Congress
-        url: /congress
+        url: /#congress
       secondary_action:
-        text: Memebers
+        text: Members
         url: /members
         icon: rocket-launch
       #announcement:
@@ -38,11 +38,23 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
-          filters:
-            brightness: 1.0
-  - block: cta-image-paragraph
+  - block: markdown
     id: congress
     content:
+      title: PRIMA Congress
+      text: The PRIMA Congress is the flagship activity of PRIMA. It was created
+        to create rich networking possibilities, survey regional mathematical
+        developments, and disseminate the latest scientific advances. The congress
+        is held every four years, see below for details.
+    design:
+      spacing:
+        padding: [6rem, 0, 0, 0]
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900 text-center"
+  - block: cta-image-paragraph
+    id: congress-instances
+    content:
+      title: PRIMA Congress
       items:
         - title: PRIMA 2022
           text: Vancouver, Canada
@@ -86,6 +98,8 @@ sections:
             url: /congress/prima2009/
     design:
       # Section background color (CSS class)
+      spacing:
+        padding: [0, 0, 6rem, 0]
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: '1'
       view: showcase
