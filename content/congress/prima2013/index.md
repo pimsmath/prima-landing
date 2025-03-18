@@ -20,6 +20,8 @@ design:
 The second PRIMA congress took place at the Jiao Tong University in Shanghai
 from June 23rd till June 28th of 2013.
 
+* [Photos](./photos)
+
 ## PRIMA Congress Advisory Committee
 
  * Alejandro Adem (The University of British Columbia, Canada)

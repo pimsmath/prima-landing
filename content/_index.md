@@ -10,13 +10,13 @@ design:
 sections:
   - block: hero
     content:
-      title: Pacific Rim Mathematical Association
+      title: Pacific Rim Mathematical Association <div id="prima-hero-logo">![](PRIMALogo_0.png)</div> 环太平洋数学协会
       text: The Pacific Rim Mathematical Associate (PRIMA) is a network of
        mathematical scientists and leading mathematical organizations which
        promotes collaboration and career development for Mathematical Scientists
-       around the Pacific Rim.
+       around the Pacific rim.
       primary_action:
-        text: Prima Congress
+        text: PRIMA Congress
         url: /#congress
       secondary_action:
         text: Members
@@ -34,10 +34,10 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "light"
       background:
-        color: "navy"
-        image:
-          # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+        color: '#C5DAC6'
+        #image:
+        #  # Add your image background to `assets/media/`.
+        #  filename: bg-triangles.svg
   - block: markdown
     id: congress
     content:
