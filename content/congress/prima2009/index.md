@@ -18,10 +18,10 @@ image:
 The inaugural Pacific Rim Mathematical Association (PRIMA) Congress was held at
 the University of New South Wales, Sydney, Australia, on July 6-10, 2009.
 
-* [Gary Froyland's Photos](./photos-gary/)
-* [Roger's Photos](./photos-roger/)
-* [Jonathan Kress' Photos](./photos-jonathan/)
-* [Doug Lind's Photos](./photos-doug/)
+* [Gary Froyland's Photos](/photos/prima2009/photos-gary/)
+* [Roger's Photos](/photos/prima2009/photos-roger/)
+* [Jonathan Kress' Photos](/photos/prima2009/photos-jonathan/)
+* [Doug Lind's Photos](/photos/prima2009/photos-doug/)
 
 ## Plenary Lectures
 The followling lectures were recoreded and are available on
