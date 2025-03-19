@@ -11,6 +11,10 @@ baseURL: 'https://example.com/' # Website URL
 ############################
 
 cascade:
+  - _target:
+      path: /representatives/**
+    reading_time: false
+    hide_date: true
   # Blog post options
   - _target:
       path: /blog/**

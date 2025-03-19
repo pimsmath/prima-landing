@@ -156,7 +156,7 @@
         <p><strong>Website:</strong> <a href="{{ .Params.website }}">{{ .Params.website }}</a></p>
         
         <h2>Affiliated Individuals:</h2>
-        {{ partial "representatives.html" . }}
+        {{ partial "representatives.html" (dict "affiliates" .Params.affiliates) }}
         {{ .Content }}
       </div>
 

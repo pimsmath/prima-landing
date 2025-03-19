@@ -1,9 +1,10 @@
 ---
-title: Mathematical Sciences Institute - Australian National University
-location: "New York, USA"
-address: "1234 Street Name, City"
-website: "https://www.example.org"
+title: Australian National University
+subtitle: Mathematical Sciences Institute
+location: Canberra, Australia
+address: "Canberra, Australian Capital Territory 0200"
+website: "https://maths.anu.edu.au/"
 affiliates:
-  - "john-doe"
-  - "jane-smith"
+  - coulhon
+  - awelsh
 ---
