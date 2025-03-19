@@ -3,7 +3,7 @@
   {{ range $affiliates }}
     {{ $individual := site.GetPage (printf "/representatives/%s.md" .) }}
     <li>
-      <strong>{{ $individual.Params.name }}</strong><br>
+      <strong><a class="no-underline" href="{{ $individual.RelPermalink }}">{{ $individual.Params.Title }}</a></strong><br>
       Affiliation: {{ $individual.Params.affiliation }}<br>
       Email: <a href="mailto:{{ $individual.Params.email }}">{{ $individual.Params.email }}</a><br>
       {{ if $individual.Params.photo }}

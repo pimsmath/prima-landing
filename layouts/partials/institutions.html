@@ -1,0 +1,9 @@
+{{ $institutions := .institutions }}
+<ul>
+  {{ range $institutions }}
+    {{ $institution := site.GetPage (printf "/institutions/%s.md" .) }}
+    <li>
+      <strong><a class="no-underline" href="{{ $institution.RelPermalink }}">{{ $institution.Params.Title }}</a></strong><br>
+    </li>
+  {{ end }}
+</ul>

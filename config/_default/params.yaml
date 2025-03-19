@@ -12,7 +12,7 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
+    local_business_type: 'Mathematics'
     org_name: 'Pacific Rim Mathematical Association'
     description: ''
     twitter: 'primamath'
@@ -34,24 +34,22 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text:
       # Logo filename in `assets/media/` folder
       filename: "icon.png"
     button:
       enable: false
       text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      url: "https://primamath.org"
     show_search: true
     show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© 2025 Pacific Institute for the Mathematical Sciences'
+    notice: '© Pacific Institute for the Mathematical Sciences'
 
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-
-reading_time: false

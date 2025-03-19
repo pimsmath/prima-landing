@@ -10,6 +10,14 @@ main:
     url: /#members
     weight: 20
     hasChildren: true
+  - name: Institutions
+    url: /institutions/
+    parent: Members
+    weight: 30
+  - name: Representatives
+    url: /representatives/
+    parent: Members
+    weight: 30
   - name: Congress
     url: /#congress
     weight: 30

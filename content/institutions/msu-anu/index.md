@@ -4,7 +4,8 @@ subtitle: Mathematical Sciences Institute
 location: Canberra, Australia
 address: "Canberra, Australian Capital Territory 0200"
 website: "https://maths.anu.edu.au/"
+show_date: false
 affiliates:
-  - coulhon
+  - tcoulhon
   - awelsh
 ---

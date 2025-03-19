@@ -12,20 +12,31 @@ baseURL: 'https://example.com/' # Website URL
 
 cascade:
   - _target:
+      path: /**
+    show_date_updated: false
+    hide_date: true
+    reading_time: false
+  - _target:
       path: /representatives/**
     reading_time: false
     hide_date: true
+    show_date: false
+  - _target:
+      path: /institutions/**
+    reading_time: false
+    hide_date: true
+    show_date: false
   # Blog post options
   - _target:
       path: /blog/**
       kind: page
     pager: true
     editable: true
-    hide_date: false
-    show_date_updated: true
-    reading_time: true
+    hide_date: true
+    show_date_updated: false
+    reading_time: false
     commentable: true
-    show_related: true
+    show_related: false
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false

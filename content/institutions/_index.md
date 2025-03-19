@@ -1,4 +1,4 @@
 ---
 reading_time: false¬
-hide_date: true¬
+show_date: false
 ---
