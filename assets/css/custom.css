@@ -22,3 +22,12 @@ section#congress-instances div.items-center{
     border: 1px solid lightgray;
     border-radius:2px;
 }
+
+div.prima-reps h3 {
+    font-weight: 500;
+    font-size: 110%;
+}
+
+div.prima-reps ul a {
+    text-decoration: underline;
+}
