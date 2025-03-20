@@ -2,6 +2,7 @@
 title: James Colliander
 affiliation: Department of Mathematics, University of British Columbia
 email: colliand@math.ubc.ca
+weight: 470
 institutions:
   - ubc
 ---

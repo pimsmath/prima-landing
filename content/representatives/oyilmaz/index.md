@@ -3,6 +3,7 @@ title: Özgür Yilmaz
 affiliation: Department of Mathematics, University of British Columbia
 email: yilmaz@math.ubc.ca
 redirect: /people/%C3%B6zg%C3%BCr-yilmaz
+weight: 10
 institutions:
   - pims
   - ubc

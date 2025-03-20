@@ -2,6 +2,7 @@
 title: Brian Marcus
 affiliation: Department of Mathematics, University of British Columbia
 email: marcusb@math.ubc.ca
+weight: 200
 institutions:
   - pims
   - ubc
