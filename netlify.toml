@@ -261,32 +261,32 @@
 
 [[redirects]]
   from = '/institutions/advanced-mathematical-institute-osaka-city-university'
-  to = '/institutions/ami-ou:'
+  to = '/institutions/ami-ou'
   status = 301
 
 [[redirects]]
   from = '/institutions/american-institute-mathematics'
-  to = '/institutions/ami:'
+  to = '/institutions/ami'
   status = 301
 
 [[redirects]]
   from = '/institutions/australian-mathematical-sciences-institute'
-  to = '/institutions/amsi:'
+  to = '/institutions/amsi'
   status = 301
 
 [[redirects]]
   from = '/institutions/australian-mathematical-society'
-  to = '/institutions/ams:'
+  to = '/institutions/ams'
   status = 301
 
 [[redirects]]
   from = '/institutions/banff-international-research-station'
-  to = '/institutions/birs:'
+  to = '/institutions/birs'
   status = 301
 
 [[redirects]]
   from = '/institutions/centro-de-ciencias-matem%C3%A1ticas'
-  to = '/institutions/ccm:'
+  to = '/institutions/ccm'
   status = 301
 
 [[redirects]]
@@ -311,7 +311,7 @@
 
 [[redirects]]
   from = '/institutions/college-science-and-engineering-san-francisco-state-university'
-  to = '/institutions/cse-sfsu:'
+  to = '/institutions/cse-sfsu'
   status = 301
 
 [[redirects]]
