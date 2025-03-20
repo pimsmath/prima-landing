@@ -21,6 +21,407 @@
     debug = true
 
 [[redirects]]
-  from = /people/%C3%B6zg%C3%BCr-yilmaz
-  to = representatives/oyilmaz/
+
+  from = "/institutes"
+  to = "/institutions"
+  status = 301
+
+  from = "prima-representatives"
+  to = "/representatives"
+  status = 301
+
+  from = "/congress/prima-2022-congress-vancouver-canada"
+  to = "/congress/prima2022/"
+ 
+  from = "/congress/prima-2017"
+  to = "/congress/prima2017/"
+
+  from = "/congress/2013"
+  to = "/congress/prima2013/"
+
+  from = "/congress/2009"
+  to = "/congress/prima2009/"
+
+  from = '/people/%C3%B6zg%C3%BCr-yilmaz'
+  to = "/representatives/oyilmaz//"
+  status = 301
+
+  from = '/people/alan-welsh'
+  to = "/representatives/awelsh/"
+
+  from = '/people/alejandro-adem'
+  to = "/representatives/aadem/"
+
+  from = '/people/alejandro-jofre'
+  to = "/representatives/ajofre/"
+
+  from = '/people/alvaro-alvarez-parrilla'
+  to = "/representatives/aparrilla/"
+
+  from = '/people/anthony-lau'
+  to = "/representatives/tlau/"
+
+  from = '/people/anthony-quas'
+  to = "/representatives/aquas/"
+
+  from = '/people/atzberger-paul'
+  to = "/representatives/apaul/"
+
+  from = '/people/bao-jiguang'
+  to = "/representatives/bjiguang/"
+
+  from = '/people/brian-conrey'
+  to = "/representatives/bconrey/"
+
+  from = '/people/brian-marcus'
+  to = "/representatives/marcusb/"
+
+  from = '/people/brian-russell'
+  to = "/representatives/eozberk/"
+
+  from = '/people/carlos-montenegro'
+  to = "/representatives/cmontenegro/"
+
+  from = '/people/chi-tat-chong'
+  to = "/representatives/ctchong/"
+
+  from = '/people/daniel-juan-pineda'
+  to = "/representatives/djpineda/"
+
+  from = '/people/david-eisenbud'
+  to = "/representatives/de/"
+
+  from = '/people/dohan-kim'
+  to = "/representatives/dohan-kim/"
+
+  from = '/people/dongsu-kim'
+  to = "/representatives/dkim/"
+
+  from = '/people/douglas-lind'
+  to = "/representatives/dlind/"
+
+  from = '/people/gang-tian'
+  to = "/representatives/gang-tian/"
+
+  from = '/people/geoff-prince'
+  to = "/representatives/gprince/"
+
+  from = '/people/hiroaki-terao'
+  to = "/representatives/hterao/"
+
+  from = '/people/hisashi-okamoto'
+  to = "/representatives/hokamoto/"
+
+  from = '/people/jadolfo-minjarez-sosa'
+  to = "/representatives/jsosa/"
+
+  from = '/people/james-colliander'
+  to = "/representatives/jcollian/"
+
+  from = '/people/jong-hae-keum'
+  to = "/representatives/jhkeum/"
+
+  from = '/people/jong-shenq-guo'
+  to = "/representatives/jsguo/"
+
+  from = '/people/jos%C3%A9-antonio-de-la-pe%C3%B1a'
+  to = "/representatives/jpena/"
+
+  from = '/people/jos%C3%A9-seade-kuri'
+  to = "/representatives/jkuri/"
+
+  from = '/people/kungching-chang'
+  to = "/representatives/kchang/"
+
+  from = '/people/le-minh-ha'
+  to = "/representatives/lmh/"
+
+  from = '/people/manfred-trummer'
+  to = "/representatives/mtrummer/"
+
+  from = '/people/marston-conder'
+  to = "/representatives/mconder/"
+
+  from = '/people/martin-chuaqui'
+  to = "/representatives/tchuaqui/"
+
+  from = '/people/martin-guest'
+  to = "/representatives/mguest/"
+
+  from = '/people/michael-bennett'
+  to = "/representatives/mbennett/"
+
+  from = '/people/michael-lamoureux'
+  to = "/representatives/mlamoureux/"
+
+  from = '/people/motohico-mulase'
+  to = "/representatives/mmulas/"
+
+  from = '/people/nassif-ghoussoub'
+  to = "/representatives/nassif/"
+
+  from = '/people/on%C3%A9simo-hern%C3%A1ndez-lerma'
+  to = "/representatives/ohlerma/"
+
+  from = '/people/peter-guttorp'
+  to = "/representatives/guttorp/"
+
+  from = '/people/sam-buss'
+  to = "/representatives/sbuss/"
+
+  from = '/people/sheldon-axler'
+  to = "/representatives/axler/"
+
+  from = '/people/shi-jin'
+  to = "/representatives/shijin/"
+
+  from = '/people/shiu-yuen-cheng'
+  to = "/representatives/sy-cheng/"
+
+  from = '/people/soon-yi-wu'
+  to = "/representatives/sywu/"
+
+  from = '/people/takashi-hara'
+  to = "/representatives/thara/"
+
+  from = '/people/thierry-coulhon'
+  to = "/representatives/tcoulhon/"
+
+  from = '/people/tony-guttman'
+  to = "/representatives/tguttman/"
+
+  from = '/people/toshiyuki-toshiyuki-katsura'
+  to = "/representatives/ttkatsura/"
+
+  from = '/people/yakov-eliashberg'
+  to = "/representatives/yeliashberg/"
+
+  from = '/people/yiming-long'
+  to = "/representatives/ylong/"
+
+  from = '/people/yoshihiro-ohnita'
+  to = "/representatives/yohnita/"
+
+  from = '/institutions/advanced-mathematical-institute-osaka-city-university'
+  to = '/institutions/ami-ou:'
+  status = 301
+
+  from = '/institutions/american-institute-mathematics'
+  to = '/institutions/ami:'
+  status = 301
+
+  from = '/institutions/australian-mathematical-sciences-institute'
+  to = '/institutions/amsi:'
+  status = 301
+
+  from = '/institutions/australian-mathematical-society'
+  to = '/institutions/ams:'
+  status = 301
+
+  from = '/institutions/banff-international-research-station'
+  to = '/institutions/birs:'
+  status = 301
+
+  from = '/institutions/centro-de-ciencias-matem%C3%A1ticas'
+  to = '/institutions/ccm:'
+  status = 301
+
+  from = '/institutions/centro-de-investigaci%C3%B3n-en-matem%C3%A1ticas-cimat'
+  to = '/institutions/cimat'
+  status = 301
+
+  from = '/institutions/centro-de-modelamiento-matematico'
+  to = '/institutions/cmm'
+  status = 301
+
+  from = '/institutions/chern-institute-mathematics'
+  to = '/institutions/chern'
+  status = 301
+
+  from = '/institutions/college-mathematics-sichuan-university'
+  to = '/institutions/cm-su'
+  status = 301
+
+  from = '/institutions/college-science-and-engineering-san-francisco-state-university'
+  to = '/institutions/cse-sfsu:'
+  status = 301
+
+  from = '/institutions/departamento-de-matematica-pontificia-universidad-catolica-de-chile'
+  to = '/institutions/cm-puc'
+  status = 301
+
+  from = '/institutions/departamento-de-matematicas-universidad-de-los-andes'
+  to = '/institutions/dm-ula'
+  status = 301
+
+  from = '/institutions/department-mathematical-and-statistical-sciences-university-alberta'
+  to = '/institutions/ualberta'
+  status = 301
+
+  from = '/institutions/department-mathematical-sciences-korea-advanced-institute-science-and-technology'
+  to = '/institutions/dms-kaist'
+  status = 301
+
+  from = '/institutions/department-mathematical-sciences-seoul-national-university'
+  to = '/institutions/dm-snu'
+  status = 301
+
+  from = '/institutions/department-mathematical-sciences-tsinghua-university'
+  to = '/institutions/dms-tu'
+  status = 301
+
+  from = '/institutions/department-mathematics-and-information-sciences-tokyo-metropolitan-university'
+  to = '/institutions/dmis-tmu'
+  status = 301
+
+  from = '/institutions/department-mathematics-and-statistics-university-calgary'
+  to = '/institutions/ucalgary'
+  status = 301
+
+  from = '/institutions/department-mathematics-and-statistics-university-victoria'
+  to = '/institutions/uvic'
+  status = 301
+
+  from = '/institutions/department-mathematics-hokkaido-university'
+  to = '/institutions/dm-hu'
+  status = 301
+
+  from = '/institutions/department-mathematics-mechanics-and-informatics-vietnam-national-university'
+  to = '/institutions/dm-mi-vnu'
+  status = 301
+
+  from = '/institutions/department-mathematics-national-taiwan-normal-university'
+  to = '/institutions/dm-ntnu'
+  status = 301
+
+  from = '/institutions/department-mathematics-princeton-university'
+  to = '/institutions/priceton'
+  status = 301
+
+  from = '/institutions/department-mathematics-simon-fraser-university'
+  to = '/institutions/sfu'
+  status = 301
+
+  from = '/institutions/department-mathematics-stanford-university'
+  to = '/institutions/stanford'
+  status = 301
+
+  from = '/institutions/department-mathematics-statistics-university-melbourne'
+  to = '/institutions/dm-um'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-british-columbia'
+  to = '/institutions/ubc'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-california-davis'
+  to = '/institutions/dm-ucd'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-california-san-diego'
+  to = '/institutions/dm-ucsd'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-california-santa-barbara'
+  to = '/institutions/dm-ucsb'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-sonora'
+  to = '/institutions/dm-us'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-washington'
+  to = '/institutions/dm-uw'
+  status = 301
+
+  from = '/institutions/department-mathematics-university-wisconsin-madison'
+  to = '/institutions/uwisc'
+  status = 301
+
+  from = '/institutions/department-mathematics-waseda-university'
+  to = '/institutions/dm-wu'
+  status = 301
+
+  from = '/institutions/department-statistics-university-washington'
+  to = '/institutions/ds-uw'
+  status = 301
+
+  from = '/institutions/facultad-de-ciencias-universidad-autonoma-de-baja-california'
+  to = '/institutions/fc-uabc'
+  status = 301
+
+  from = '/institutions/faculty-mathematics-kyushu-university'
+  to = '/institutions/fm-ku'
+  status = 301
+
+  from = '/institutions/graduate-school-mathematical-sciences-university-tokyo'
+  to = '/institutions/gsms-ut'
+  status = 301
+
+  from = '/institutions/institute-mathematical-sciences'
+  to = '/institutions/ims'
+  status = 301
+
+  from = '/institutions/instituto-de-matematicas-universidad-nacional-autonoma-de-mexico'
+  to = '/institutions/im-unam'
+  status = 301
+
+  from = '/institutions/korea-institute-advanced-study'
+  to = '/institutions/kias'
+  status = 301
+
+  from = '/institutions/korean-mathematical-society'
+  to = '/institutions/kms'
+  status = 301
+
+  from = '/institutions/mathematical-sciences-institute-australian-national-university'
+  to = '/institutions/msu-anu'
+  status = 301
+
+  from = '/institutions/mathematical-sciences-research-institute'
+  to = '/institutions/msri'
+  status = 301
+
+  from = '/institutions/mathematical-society-japan'
+  to = '/institutions/msj'
+  status = 301
+
+  from = '/institutions/mathematics-department-cinvestav-instituto-politecnico-nacional'
+  to = '/institutions/md-c-ipn'
+  status = 301
+
+  from = '/institutions/mitacs'
+  to = '/institutions/mitacs'
+  status = 301
+
+  from = '/institutions/national-center-theoretical-sciences-national-cheng-kung-university'
+  to = '/institutions/ncts-ncku'
+  status = 301
+
+  from = '/institutions/pacific-institute-mathematical-sciences'
+  to = '/institutions/pims'
+  status = 301
+
+  from = '/institutions/research-institute-mathematical-sciences'
+  to = '/institutions/rims'
+  status = 301
+
+  from = '/institutions/school-mathematical-sciences-beijing-normal-university'
+  to = '/institutions/sms-bnu'
+  status = 301
+
+  from = '/institutions/school-mathematical-sciences-peking-university'
+  to = '/institutions/sms-pu'
+  status = 301
+
+  from = '/institutions/school-science-hong-kong-university-science-and-technology'
+  to = '/institutions/ss-hkust'
+  status = 301
+
+  from = '/institutions/shanghai-jiao-tong-university'
+  to = '/institutions/jiao-tong'
+  status = 301
+
+  from = '/institutions/university-auckland'
+  to = '/institutions/uauckland'
   status = 301
