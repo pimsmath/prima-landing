@@ -10,8 +10,8 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-  <div class="md:flex">
+<div class="md:flex">
+  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
     <div class="md:flex-shrink-0 overflow-hidden">
       {{ with $resource }}
         {{ $image := .Fill (printf "655x655 %s" $anchor) }}
@@ -19,12 +19,18 @@
       <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
       {{end}}
     </div>
+  </a>
     <div class="p-2 pl-8">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
       <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
+      {{ with $item.Params.subtitle }}
+      <div class="uppercase tracking-wide text-sm text-primary-400 dark:text-primary-100 font-semibold">{{ . }}</div>
+      {{ end }}
       <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
         {{ $item.Params.address }}
       </p>
+      </a>
       {{ $last := 0 }}
       {{ if $item.Params.affiliates }}
       <div class="prima-reps pt-4">
@@ -33,18 +39,20 @@
         {{ range $index, $element := $item.Params.affiliates }}
           {{ $individual := site.GetPage (printf "/representatives/%s.md" $element) }}
           {{ if lt $index 2 }}
-          <li class="ml-2"><a style="font-style: none" href="{{ $individual.RelPermalink }}">{{ $individual.Params.Title }}</a></li>
+          <li class="ml-2"><a href="{{ $individual.RelPermalink | safeHTMLAttr }}">{{ $individual.Params.Title }}</a></li>
           {{ end }}
           {{ $last = add $last 1 }}
         {{ end }}
         </ul>
         {{ if gt $last 2 }}
-        <div class="pt-2 ml-2">
-        <a  href="{{ $link }}" {{ $target |safeHTMLAttr }}>...view more representatives</a>
-        </div>
+          <div class="pt-2 ml-2">
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
+            ...view more representatives
+          </a>
+          </div>
         {{ end }}
       </div>
-    {{ end }}
+      {{ end }}
     </div>
-  </div>
-</a>
+  </a>
+</div>
