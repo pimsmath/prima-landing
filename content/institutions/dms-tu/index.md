@@ -5,6 +5,7 @@ location: Beijing, China
 address: "Beijing 100084"
 website: "https://ymsc.tsinghua.edu.cn/en/"
 show_date: false
+weight: 370
 affiliates:
   - bjiguang
 ---

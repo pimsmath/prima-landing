@@ -5,6 +5,7 @@ location: Davis, USA
 address: "One Shields Avenu Davis, California 95616 United States"
 website: "https://www.math.ucdavis.edu/"
 show_date: false
+weight: 60
 affiliates:
  - mmulase
 ---

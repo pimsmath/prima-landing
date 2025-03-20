@@ -5,6 +5,7 @@ location: Calgary, Canada
 address: 2500 University Drive NW, Calgary, Alberta, T2N 1N4
 website: "https://science.ucalgary.ca/mathematics-statistics"
 show_date: false
+weight: 455
 affiliates:
  - mlamoureux
 ---

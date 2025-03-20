@@ -5,5 +5,6 @@ location: Daejeon, Korea
 address: "291 Daehak-ro Yuseong-gu Daejeon South Korea"
 website: "https://mathsci.kaist.ac.kr/home/"
 show_date: false
+weight: 230
 affiliates:
 ---

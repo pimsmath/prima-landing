@@ -4,6 +4,7 @@ location: Tainan City, Taiwan
 address: "No. 1, University Road Tainan City Taiwan"
 website: "https://ncts.ntu.edu.tw/"
 show_date: false
+weight: 140
 affiliates:
  - sywu
 ---

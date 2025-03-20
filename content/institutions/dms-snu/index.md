@@ -5,6 +5,7 @@ location: Seoul, Korea
 address: "San 56-1, Sillim-Dong Seoul 151-747 South Korea"
 website: "https://www.math.snu.ac.kr/"
 show_date: false
+weight: 240
 affiliates:
   - dohan-kim
 ---

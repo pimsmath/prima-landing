@@ -5,5 +5,6 @@ location: Canberra, Australia
 address: "Canberra, Australian Capital Territory 0200"
 website: "https://austms.org.au/"
 show_date: false
+weight: 540
 affiliates:
 ---

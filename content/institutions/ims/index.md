@@ -4,6 +4,7 @@ location: Singapore
 address: "Singapore 118402"
 website: "https://ims.nus.edu.sg/"
 show_date: false
+weight: 150
 affiliates:
  - ctchong
 ---

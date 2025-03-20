@@ -5,6 +5,7 @@ location: Seattle, USA
 address: "Seattle, Washington 98195-4350 United States"
 website: "https://math.washington.edu/"
 show_date: false
+weight: 90
 affiliates:
   - dlind
 ---
